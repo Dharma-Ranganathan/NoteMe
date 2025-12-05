@@ -1,0 +1,22 @@
+.card-wrapper {
+    /* border:1px solid; */
+    height: calc(100vh - 140px);
+    padding:10px;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    overflow-y:scroll;
+
+    .card-container {
+        /* border:1px solid; */
+        min-width: 900px;
+        padding:10px;
+        border-radius: 10px;
+
+        display:flex;
+        align-items: start;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap:10px;
+    }
+}

@@ -1,0 +1,19 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+   background: linear-gradient(to bottom right, #EDDD53,#84ED53 );
+  height: 100vh;
+  width: 100%;
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
